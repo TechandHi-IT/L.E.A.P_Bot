@@ -3,52 +3,59 @@
       {
         "tag": "greeting",
         "patterns": ["Hello", "Hi", "Hey", "How are you?"],
-        "responses": ["Hello! I'm L.E.A.P bot\nThank you for reaching out to me\nI'm here to assist you any way I can"]
+        "responses": ["Hello! I'm L.E.A.P bot\nThank you for reaching out to me\nI'm here to assist you any way I can"],
+        "context_set": ""
       },
       {
         "tag": "asking_for_help",
         "patterns": ["I need help", "Can you help me?", "I'm struggling"],
-        "responses": ["I'm here to help. Please share what's on your mind, and I'll do my best to assist you."]
+        "responses": ["I'm here to help. Please share what's on your mind, and I'll do my best to assist you."],
+        "context_set": ""
       },
       {
         "tag": "expressing_suicidal_thoughts",
         "patterns": ["I want to end my life", "I'm thinking about suicide", "I can't go on anymore"],
         "responses": ["I'm really sorry to hear that you're feeling this way, but I can't provide the help that you need as virtual friend. It's essential to talk to someone who can, though. Please consider reaching out to HDI (Human Development Initiative) on 08080551376"],
-        "action": "safety_alert"
+        "action": "safety_alert",
+        "context_set":""
       },
       {
         "tag": "listening",
         "patterns": ["I just need someone to talk to", "Can you listen to me?", "I feel alone"],
         "responses": ["I'm here to listen and support you. Please feel free to share your thoughts and feelings."],
-        "action": "provide_empathy"
+        "action": "provide_empathy",
+        "context_set":""
       },
       {
         "tag": "offer_help",
         "patterns": ["How can I help?", "What do you need?", "Is there something specific I can do?"],
-        "responses": ["You're not alone in this. If you're comfortable, sharing what's on your mind may be a good start. I'm here to listen and provide information and resources."]
+        "responses": ["You're not alone in this. If you're comfortable, sharing what's on your mind may be a good start. I'm here to listen and provide information and resources."],
+        "context_set":""
       },
       {
         "tag": "safety_alert",
         "patterns": ["I'm in immediate danger", "I've taken harmful actions", "I need emergency help"],
         "responses": ["I'm really sorry to hear that you're in immediate danger, but I can't provide the help that you need. It's crucial to call emergency services or a crisis hotline immediately. Your safety is the top priority."],
-        "action": "safety_alert"
+        "action": "safety_alert",
+        "context_set":""
       },
       {
         "tag": "safe_space",
         "patterns": ["I just want to talk", "Can we chat about something else?", "I need a safe space"],
-        "responses": ["Of course, this is a safe space for you to express yourself. Feel free to share whatever is on your mind. I'm here to listen.\nYou can talk and express yourself without any judgment here."]
+        "responses": ["Of course, this is a safe space for you to express yourself. Feel free to share whatever is on your mind. I'm here to listen.\nYou can talk and express yourself without any judgment here."],
+        "context_set":""
       },
       {
         "tag": "goodbye",
         "patterns": ["Goodbye", "I have to go", "I'll talk to someone else"],
-        "responses": ["Take care. If you ever need assistance or someone to talk to, please feel free to reach out. You're not alone in this."]
+        "responses": ["Take care. If you ever need assistance or someone to talk to, please feel free to reach out. You're not alone in this."],
+        "context_set":""
       },
       {
         "tag": "safe_space_inspiration",
         "patterns": ["I'm going through a tough time", "I feel overwhelmed", "I don't know if I can go on"],
-        "responses": [
-          "I'm really sorry to hear that you're feeling this way. Remember, you're stronger than you think. Tough times don't last forever, and you have the power to overcome them. Believe in yourself and take things one step at a time.\nIt's completely normal to feel overwhelmed at times. Just remember, you have an incredible strength within you. You've faced challenges before and come out on top. You can do it again.\nI'm here to support you through this. You're not alone. Sometimes, the darkest moments can lead to the most beautiful transformations. Keep moving forward, and you'll find your light."
-        ]
+        "responses": ["I'm really sorry to hear that you're feeling this way. Remember, you're stronger than you think. Tough times don't last forever, and you have the power to overcome them. Believe in yourself and take things one step at a time.\nIt's completely normal to feel overwhelmed at times. Just remember, you have an incredible strength within you. You've faced challenges before and come out on top. You can do it again.\nI'm here to support you through this. You're not alone. Sometimes, the darkest moments can lead to the most beautiful transformations. Keep moving forward, and you'll find your light."],
+        "context_set":""
       }
     ]
   }
