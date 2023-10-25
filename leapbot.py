@@ -131,7 +131,7 @@ def chat():
 			results = model.predict([bag_of_words(inp,words)])[0]
 			results_index = numpy.argmax(results)
 			tag = labels[results_index]
-			dail = '+2349025629246'
+			dail = '+2349066588494'
 			submitted = b.form_submit_button("Send", use_container_width=True)
 			st.session_state.messages.append({"role": "user", "content": inp})
 
