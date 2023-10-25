@@ -15,7 +15,7 @@
       {
         "tag": "expressing_suicidal_thoughts",
         "patterns": ["I want to end my life", "I'm thinking about suicide", "I can't go on anymore"],
-        "responses": ["I'm really sorry to hear that you're feeling this way, but I can't provide the help that you need as virtual friend. It's essential to talk to someone who can, though. Please consider reaching out to HDI (Human Development Initiative) on 08080551376"],
+        "responses": ["I'm really sorry to hear that you're feeling this way, but I can't provide the help that you need as virtual friend. It's essential to talk to someone who can, though."],
         "action": "safety_alert",
         "context_set":""
       },
@@ -47,8 +47,20 @@
       },
       {
         "tag": "goodbye",
-        "patterns": ["Goodbye", "I have to go", "I'll talk to someone else"],
+        "patterns": ["Goodbye", "bye for now", "I'll talk to someone else"],
         "responses": ["Take care. If you ever need assistance or someone to talk to, please feel free to reach out. You're not alone in this."],
+        "context_set":""
+      },
+      {
+        "tag": "thank_you",
+        "patterns": ["thank you for listening", "thank you", "i appreciate the advice"],
+        "responses": ["Glad I could help and thank you for trusting me to open up as per the privacy regulations your data is secured\nbut I'd still like to recommend people that can give you the care you need"],
+        "context_set":""
+      },
+      {
+        "tag":"recommend",
+        "patterns": ["okay recommend", "let me see the recommendations", "recommend"],
+        "responses": ["These are a few which offer the best care\nHuman Development Initiative(HDI) - Call: 08080551376, link: hdinigeria.org\nSurpin Helpline Nigeria - Call: 08000787746, link: surpinng.com\nMentally Aware Nigeria Initiative - Call: (809) 111-6264, link: mentallyaware.org"],
         "context_set":""
       },
       {
