@@ -131,7 +131,7 @@ def chat():
 			results = model.predict([bag_of_words(inp,words)])[0]
 			results_index = numpy.argmax(results)
 			tag = labels[results_index]
-			dail = '+2349025629246'
+			dail = '+2349066588494'
 			submitted = b.form_submit_button("Send", use_container_width=True)
 			st.session_state.messages.append({"role": "user", "content": inp})
 
@@ -174,6 +174,11 @@ def chat():
 		st.write("**Connecting You with Help:** If you're in immediate danger or need professional assistance, LEAP Bot can guide you to the right resources and encourage you to seek help.")
 		st.write("**Motivation and Inspiration:** LEAP Bot offers words of encouragement and motivation to empower you in your journey towards a more positive outlook.")
 		st.write('---')
+		with st.expander('Depressive disorders prevalence'):
+			image = Image.open('depressive.png')
+			image2 = Image.open('depressive-1.png')
+			st.image(image, caption='Depressive disorders prevalence MAP')
+			st.image(image2, caption='Depressive disorders prevalence CHART')
 		st.write('---')
 		st.write("<span style='font-size: 20px;'>Why Choose LEAP Bot?<span>", unsafe_allow_html=True)
 		st.write("**A Safe Space:** LEAP Bot is dedicated to creating a secure and non-judgmental environment where you can freely express yourself and seek support.")
