@@ -70,5 +70,620 @@
         "context_set":""
       }
     ]
+    [
+      {
+        "tag": "coping_strategies",
+        "patterns": [
+          "How can I cope with my feelings?",
+          "What can I do to feel better?",
+          "Give me some coping strategies"
+        ],
+        "responses": [
+          "I can suggest some coping strategies to help you manage your emotions. You can try deep breathing exercises, going for a walk, journaling your thoughts, or calling a friend or family member for support."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "self_care_tips",
+        "patterns": [
+          "How can I practice self-care?",
+          "What are some self-care tips?",
+          "Tell me about self-care"
+        ],
+        "responses": [
+          "Self-care is important for your well-being. You can practice self-care by taking time for yourself, doing activities you enjoy, getting enough rest, and maintaining a healthy diet. Remember to be kind to yourself."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mental_health_resources",
+        "patterns": [
+          "Where can I find mental health resources?",
+          "Tell me about mental health organizations",
+          "I need information on mental health"
+        ],
+        "responses": [
+          "There are many mental health organizations that can provide you with valuable resources and support. Some of them include NAMI (National Alliance on Mental Illness), SAMHSA (Substance Abuse and Mental Health Services Administration), and Crisis Text Line."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "positive_affirmations",
+        "patterns": [
+          "I need some positivity",
+          "Give me a positive affirmation",
+          "Tell me something uplifting"
+        ],
+        "responses": [
+          "You are stronger than you think. Every day is a new opportunity for positive change. You matter, and your presence in this world makes a difference."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "dealing_with_stress",
+        "patterns": [
+          "I'm stressed out",
+          "How can I manage stress?",
+          "What can I do to reduce stress?"
+        ],
+        "responses": [
+          "Stress is a common feeling, but there are ways to manage it. You can try relaxation techniques like meditation, yoga, or simply taking a few deep breaths. It's also essential to prioritize self-care and talk to someone you trust about what's causing you stress."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "support_for_friends_and_family",
+        "patterns": [
+          "How can I help a friend in need?",
+          "What should I do if someone I know is struggling?",
+          "I want to support a loved one"
+        ],
+        "responses": [
+          "Supporting a friend or family member who's going through a tough time is important. You can be there to listen without judgment, encourage them to seek professional help, and let them know you care and are there for them."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "dealing_with_loneliness",
+        "patterns": [
+          "I feel really lonely",
+          "How can I cope with loneliness?",
+          "Tell me about dealing with isolation"
+        ],
+        "responses": [
+          "Loneliness can be challenging, but you can reach out to friends or family for a chat, engage in online communities, or try a new hobby to meet like-minded people. You're not alone in feeling lonely, and there are ways to connect with others."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "relaxation_techniques",
+        "patterns": [
+          "Tell me a relaxation technique",
+          "How can I relax?",
+          "I need to destress"
+        ],
+        "responses": [
+          "Relaxation techniques can help calm your mind. You can try deep breathing exercises, progressive muscle relaxation, or guided imagery to unwind and reduce stress."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "daily_affirmations",
+        "patterns": [
+          "Give me a daily affirmation",
+          "I want a positive mantra",
+          "Affirmation of the day"
+        ],
+        "responses": [
+          "Today, I choose happiness and inner peace. I am worthy of love and understanding. I believe in my ability to overcome challenges."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "setting_goals",
+        "patterns": [
+          "How can I set goals for myself?",
+          "Tell me about goal setting",
+          "I need motivation to achieve my goals"
+        ],
+        "responses": [
+          "Setting achievable goals can be motivating. Start with small, realistic goals and celebrate your progress. Remember, it's okay to ask for help and support in your journey."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "dealing_with_anxiety",
+        "patterns": [
+          "I'm feeling anxious",
+          "How can I manage anxiety?",
+          "Anxiety relief techniques"
+        ],
+        "responses": [
+          "Anxiety is tough, but there are ways to cope. Try mindfulness meditation, journaling, or speaking to a mental health professional about your anxiety."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "building_resilience",
+        "patterns": [
+          "How can I become more resilient?",
+          "Tell me about resilience",
+          "I want to bounce back from challenges"
+        ],
+        "responses": [
+          "Resilience is the ability to adapt to adversity. You can build it by maintaining a positive outlook, seeking support, and learning from your experiences."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mental_health_myths",
+        "patterns": [
+          "What are common mental health myths?",
+          "Tell me about mental health misconceptions",
+          "Debunk some mental health myths"
+        ],
+        "responses": [
+          "There are many myths about mental health. Some include 'Mental illness is a sign of weakness' and 'You can just snap out of it.' It's important to understand and challenge these misconceptions."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "art_for_healing",
+        "patterns": [
+          "How can art help with healing?",
+          "Tell me about art therapy",
+          "I want to express myself through art"
+        ],
+        "responses": [
+          "Art can be a powerful way to express and process emotions. You can try drawing, painting, or any creative activity that resonates with you as a form of self-expression and healing."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "setting_boundaries",
+        "patterns": [
+          "How can I set healthy boundaries?",
+          "Tell me about boundary setting",
+          "I need to protect my mental health"
+        ],
+        "responses": [
+          "Setting boundaries is important for your well-being. It involves communicating your limits, saying 'no' when necessary, and prioritizing self-care without guilt."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "self_doubt",
+        "patterns": [
+          "I doubt myself a lot",
+          "How can I overcome self-doubt?",
+          "Tell me about self-confidence"
+        ],
+        "responses": [
+          "Self-doubt is common, but remember that you have unique strengths and qualities. Practice self-compassion and challenge negative self-talk to build self-confidence."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "finding_meaning",
+        "patterns": [
+          "I'm searching for meaning in life",
+          "How can I find purpose?",
+          "Tell me about existential questions"
+        ],
+        "responses": [
+          "Finding meaning in life is a personal journey. Reflect on your values, passions, and what brings you joy. Seek support from a counselor if you're struggling with existential questions."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "dealing_with_grief",
+        "patterns": [
+          "I'm grieving",
+          "How can I cope with loss?",
+          "Tell me about the stages of grief"
+        ],
+        "responses": [
+          "Grief is a challenging process. You may experience stages like denial, anger, bargaining, depression, and acceptance. It's important to allow yourself to grieve and seek support from friends or a grief counselor."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "managing_emotions",
+        "patterns": [
+          "I'm overwhelmed by my emotions",
+          "How can I manage intense feelings?",
+          "Emotional regulation techniques"
+        ],
+        "responses": [
+          "Intense emotions can be difficult to handle. Try grounding techniques, such as the 5-4-3-2-1 method, and mindfulness exercises to stay present and calm."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "positive_thinking",
+        "patterns": [
+          "How can I cultivate positive thoughts?",
+          "Tell me about positive thinking",
+          "I want to be more optimistic"
+        ],
+        "responses": [
+          "Positive thinking can improve your mental health. Practice gratitude, challenge negative thoughts, and surround yourself with positive influences to foster optimism."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "healthy_relationships",
+        "patterns": [
+          "How can I build healthy relationships?",
+          "Tell me about relationship boundaries",
+          "I want to improve my connections with others"
+        ],
+        "responses": [
+          "Healthy relationships involve clear communication and respect for boundaries. Learn to set and respect boundaries, and remember that healthy relationships should uplift and support you."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "body_positivity",
+        "patterns": [
+          "I struggle with body image",
+          "How can I practice body positivity?",
+          "Tell me about self-acceptance"
+        ],
+        "responses": [
+          "Body positivity is about loving and accepting your body as it is. Focus on your strengths, avoid negative self-talk, and seek support from body-positive communities."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "managing_panic",
+        "patterns": [
+          "I'm having a panic attack",
+          "How can I manage panic attacks?",
+          "Panic attack relief techniques"
+        ],
+        "responses": [
+          "During a panic attack, focus on your breathing and grounding exercises. Remember, it will pass. If you experience panic attacks frequently, consider seeking help from a mental health professional."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "self_compassion",
+        "patterns": [
+          "I'm too hard on myself",
+          "How can I practice self-compassion?",
+          "Tell me about self-kindness"
+        ],
+        "responses": [
+          "Self-compassion involves treating yourself with the same kindness and understanding you would offer a friend. Be gentle with yourself, and remember that self-improvement takes time."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "realistic_expectations",
+        "patterns": [
+          "I have unrealistic expectations",
+          "How can I set realistic goals?",
+          "Tell me about goal setting"
+        ],
+        "responses": [
+          "Setting realistic expectations is important for your mental health. Focus on achievable goals, break them into smaller steps, and celebrate your progress."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "conflict_resolution",
+        "patterns": [
+          "I'm in a conflict",
+          "How can I resolve conflicts?",
+          "Conflict resolution tips"
+        ],
+        "responses": [
+          "Conflict is a part of life. Practice active listening, empathize with others' perspectives, and seek compromise to resolve conflicts in a healthy way."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "support_system",
+        "patterns": [
+          "I need a support system",
+          "How can I build a support network?",
+          "Tell me about seeking support"
+        ],
+        "responses": [
+          "Building a support system is crucial. Reach out to friends, family, or support groups. Don't hesitate to ask for help when you need it; people care about you."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mindfulness_meditation",
+        "patterns": [
+          "Tell me about mindfulness meditation",
+          "How can I start practicing mindfulness?",
+          "I want to be more present"
+        ],
+        "responses": [
+          "Mindfulness meditation is a great way to stay present and reduce stress. Find a quiet space, focus on your breath, and observe your thoughts without judgment to be more mindful."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "overcoming_procrastination",
+        "patterns": [
+          "I'm struggling with procrastination",
+          "How can I stop procrastinating?",
+          "Procrastination tips"
+        ],
+        "responses": [
+          "Procrastination is common. Try breaking tasks into smaller steps, setting deadlines, and eliminating distractions to improve your productivity."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "financial_stress",
+        "patterns": [
+          "I'm stressed about money",
+          "How can I manage financial stress?",
+          "Financial wellness advice"
+        ],
+        "responses": [
+          "Financial stress can be overwhelming. Create a budget, seek financial advice, and explore resources to help manage your finances more effectively."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "healthy_lifestyle",
+        "patterns": [
+          "How can I live a healthier life?",
+          "Tell me about healthy lifestyle choices",
+          "I want to improve my well-being"
+        ],
+        "responses": [
+          "A healthy lifestyle includes balanced nutrition, regular exercise, and sufficient sleep. Small changes can lead to significant improvements in your well-being."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "handling_rejection",
+        "patterns": [
+          "I've faced rejection",
+          "How can I cope with rejection?",
+          "Dealing with rejection advice"
+        ],
+        "responses": [
+          "Rejection is tough, but it's a part of life. Reflect on what you've learned, stay resilient, and remember that rejection doesn't define your worth."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "social_anxiety",
+        "patterns": [
+          "I have social anxiety",
+          "How can I manage social anxiety?",
+          "Social anxiety coping strategies"
+        ],
+        "responses": [
+          "Social anxiety can be challenging. Try gradual exposure to social situations, practice relaxation techniques, and consider cognitive-behavioral therapy for support."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "gratitude_practice",
+        "patterns": [
+          "How can I practice gratitude?",
+          "Tell me about the benefits of gratitude",
+          "I want to be more thankful"
+        ],
+        "responses": [
+          "Gratitude can boost your well-being. Start a gratitude journal, acknowledge small joys, and express thanks to others to cultivate a grateful mindset."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "dealing_with_bullying",
+        "patterns": [
+          "I'm being bullied",
+          "How can I cope with bullying?",
+          "Bullying prevention tips"
+        ],
+        "responses": [
+          "Bullying is not your fault. Seek help from a trusted adult, document the incidents, and consider discussing the situation with school or workplace authorities."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "time_management",
+        "patterns": [
+          "I struggle with time management",
+          "How can I manage my time better?",
+          "Time management strategies"
+        ],
+        "responses": [
+          "Effective time management is key to reducing stress. Prioritize tasks, use time management techniques, and create a schedule to stay organized."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "career_goals",
+        "patterns": [
+          "How can I set career goals?",
+          "Tell me about goal setting for my career",
+          "I want to advance in my profession"
+        ],
+        "responses": [
+          "Setting career goals is important for professional growth. Define your aspirations, seek mentorship, and continue learning to achieve your career objectives."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "self_expression_writing",
+        "patterns": [
+          "How can I express myself through writing?",
+          "Tell me about journaling",
+          "I want to use writing for self-expression"
+        ],
+        "responses": [
+          "Writing can be a therapeutic outlet. Consider journaling your thoughts and feelings, or try creative writing to express yourself and gain clarity."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "finding_motivation",
+        "patterns": [
+          "I lack motivation",
+          "How can I find motivation?",
+          "Motivation tips"
+        ],
+        "responses": [
+          "Motivation can be elusive at times. Set clear goals, break them into small steps, and find sources of inspiration to keep you motivated."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "trauma_recovery",
+        "patterns": [
+          "I've experienced trauma",
+          "How can I heal from trauma?",
+          "Trauma recovery strategies"
+        ],
+        "responses": [
+          "Healing from trauma is a process. Seek therapy or counseling, practice self-care, and be patient with yourself as you work towards recovery."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "digital_detox",
+        "patterns": [
+          "I'm addicted to screens",
+          "How can I detox from technology?",
+          "Digital detox advice"
+        ],
+        "responses": [
+          "Digital detox can improve mental well-being. Set boundaries for screen time, engage in tech-free activities, and connect with nature or people face-to-face."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "building_self_esteem",
+        "patterns": [
+          "I have low self-esteem",
+          "How can I boost my self-esteem?",
+          "Self-esteem improvement tips"
+        ],
+        "responses": [
+          "Building self-esteem takes time. Challenge negative self-talk, practice self-compassion, and celebrate your achievements, no matter how small."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mindfulness_for_kids",
+        "patterns": [
+          "How can I teach mindfulness to children?",
+          "Tell me about mindfulness for kids",
+          "I want to help my child with mindfulness"
+        ],
+        "responses": [
+          "Teaching mindfulness to children can improve their emotional well-being. Encourage them to breathe mindfully, engage in mindful activities, and lead by example."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "purpose_after_retirement",
+        "patterns": [
+          "I'm struggling with purpose in retirement",
+          "How can I find meaning after retiring?",
+          "Purpose in retirement advice"
+        ],
+        "responses": [
+          "Finding purpose in retirement is important. Consider volunteering, pursuing hobbies, or exploring new interests to keep your life fulfilling and meaningful."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "overcoming_perfectionism",
+        "patterns": [
+          "I'm a perfectionist",
+          "How can I overcome perfectionism?",
+          "Perfectionism reduction strategies"
+        ],
+        "responses": [
+          "Perfectionism can be limiting. Embrace imperfections, set realistic expectations, and focus on the process rather than solely the outcome to reduce perfectionist tendencies."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "mindful_eating",
+        "patterns": [
+          "How can I practice mindful eating?",
+          "Tell me about the benefits of mindful eating",
+          "I want to develop a healthier relationship with food"
+        ],
+        "responses": [
+          "Mindful eating involves paying attention to your food and your body's hunger cues. Slow down, savor your meals, and listen to your body to promote a healthier relationship with food."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "finding_balance",
+        "patterns": [
+          "I need to find balance in my life",
+          "How can I achieve work-life balance?",
+          "Balancing responsibilities advice"
+        ],
+        "responses": [
+          "Finding balance is essential for well-being. Prioritize self-care, set boundaries, and delegate tasks to maintain a healthy work-life balance."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "stress_at_work",
+        "patterns": [
+          "I'm stressed at work",
+          "How can I manage workplace stress?",
+          "Work-related stress relief"
+        ],
+        "responses": [
+          "Workplace stress is common. Practice time management, communicate with your colleagues, and seek stress reduction techniques to manage stress at work."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "physical_fitness",
+        "patterns": [
+          "How can I improve my physical fitness?",
+          "Tell me about staying active",
+          "I want to lead a more active lifestyle"
+        ],
+        "responses": [
+          "Physical fitness is important for overall health. Incorporate regular exercise, find activities you enjoy, and set achievable fitness goals to stay active."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "coping_with_loss",
+        "patterns": [
+          "I've lost someone dear to me",
+          "How can I cope with the loss of a loved one?",
+          "Grief support and coping strategies"
+        ],
+        "responses": [
+          "Coping with the loss of a loved one is challenging. Allow yourself to grieve, seek support from others, and consider grief counseling to navigate the grieving process."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "new_beginnings",
+        "patterns": [
+          "I'm starting a new chapter in my life",
+          "How can I embrace new beginnings?",
+          "New beginnings advice"
+        ],
+        "responses": [
+          "Embracing new beginnings is an opportunity for growth. Set goals, stay open to change, and focus on what you want to achieve in this new chapter of your life."
+        ],
+        "context_set": ""
+      }
+    ]
+    
   }
   
