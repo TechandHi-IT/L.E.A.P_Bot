@@ -190,8 +190,8 @@ def chat():
 
 
 
-# if __name__ == '__main__':
-# 	chat()
+if __name__ == '__main__':
+	chat()
 
-chat()	
+# chat()	
 
